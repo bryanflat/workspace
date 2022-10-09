@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Request Form</title>
+</head>
+<body>
+    <h1>ABC Company IT Service Request Form</h1>
+
+    <form action="">
+        <p>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname" size="75">
+        </p>
+
+        <p>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" size="75">
+        </p>
+
+        <p>
+            <label for="email">Email Address:</label>
+            <input type="text" name="email" id="email" size="72">
+        </p>
+
+        <p>
+            <label for="contact">Contact Number:</label>
+            <input type="text" name="contact" id="contact" placeholder="Enter landline or mobile number" size="70">
+        </p>
+
+        <p>
+            <input type="radio" name="etype" id="etype">
+            <label for="etype">Onsite</label>
+            <input type="radio" name="etype" id="etype">
+            <label for="etype">Work From Home</label>
+        </p>
+
+        <p>
+            <label for="loc">Location:</label> 
+            <br>
+            
+            For onsite, please state your Workstation No., Department, Floor and Building. <br>
+            
+            For work from home, please complete your address and include a landmark nearest to your location.
+            <br>
+
+            <input type="text" name="loc" id="loc" size="86">
+        </p>
+
+        <p>
+            <label for="sReq">Service Request Type</label>
+            <select name="sReq" id="sReq">
+                <option value="sr1">Desktop/Laptop Setup</option>
+                <option value="sr2">Desktop/Laptop Support</option>
+                <option value="sr3">Desktop/Laptop Maintenance</option>
+                <option value="sr4">Software Installation</option>
+                <option value="sr5">Software Support</option>
+                <option value="sr6">Computer Peripheral Setup</option>
+                <option value="sr7">Peripheral Troubleshooting</option>
+                <option value="sr8">Computer Peripheral Maintenance</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="rDescription">Request Description:</label><br>
+            <textarea name="rDescription" id="rDescription" cols="30" rows="10"         
+            placeholder="Tell us the service needed as detail as possible."></textarea>
+        </p>
+
+        <p>
+            Upload a picture/screenshot for reference.
+            <input type="file" id="myFile" name="filename">
+        </p>
+        
+        <p>
+            <button type="submit" onclick="alert ('The details provided will be recorded')">Submit</button>
+            <button type="reset">Reset</button>
+        </p>
+    </form>
+</body>
+</html>

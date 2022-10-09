@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Sample form</h1>
+    <form action="">
+
+        <p>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+        </p>
+
+        <p>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+        </p>
+
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </p>
+
+
+    </form>
+
+    <h1>Survery Form</h1>
+
+    <form action="">
+        <p>
+            <label for="fname">First Name:</label>
+            <input type="text" name="fname" id="fname">
+        </p>
+
+        <p>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname">
+        </p>
+
+        <p>
+            <label for="emailAdd">Email Address:</label>
+            <input type="email" name="emailAdd" id="emailAdd">
+        </p>
+        
+        <p>
+            <input type="radio" name="etype" id="etype">
+            <label for="etype">Onsite</label>
+            <input type="radio" name="etype" id="etype">
+            <label for="etype">Online</label>
+        </p>
+        
+        <p>
+            <label for="batchNum">Batch Number:</label>
+            <select name="batchNum" id="batchNum">
+                <option value="b1">Batch 1</option>
+                <option value="b2">Batch 2</option>
+                <option value="b3">Batch 3</option>
+                <option value="b4">Batch 4</option>
+                <option value="b5">Batch 5</option>
+                <option value="b6">Batch 6</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="instructor">Instructor:</label>
+            <input type="text" name="instructor" id="instructor">
+        </p>
+
+            What do you like about our bootcamp?<br>
+            <input type="checkbox" name="classExp" id="classExp">
+            <label for="classExp">Classroom Experience</label><br>
+            
+            <input type="checkbox" name="InsExp" id="insExp">
+            <label for="InsExp">Instructor Expertise</label><br>
+            
+            <input type="checkbox" name="classCollab" id="classCollab">
+            <label for="classCollab">Classroom Experience</label><br>
+           
+            <input type="checkbox" name="others" id="others">
+            <label for="others">Others</label>
+            <input type="text" name="others" id="others">
+
+        <p>
+            <label for="comments">Comments for you instructor:</label>
+            <textarea name="comments" id="" cols="30" rows="10" placeholder="type full comments here." maxlength="1000"></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </p>
+
+    </form>
+    
+</body>
+</html>
