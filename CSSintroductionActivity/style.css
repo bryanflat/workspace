@@ -1,0 +1,36 @@
+.p1a {
+    background-color: rgb(208, 212, 190);
+}
+
+* {background-color: rgb(87, 156, 116);
+    font-family: 'Times New Roman', Times, serif, Courier, monospace;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#fh2 {
+    text-transform: uppercase;
+}
+
+li {
+
+    list-style-type: circle;
+}
+
+div img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+}
+
+#div3 ~ p {
+    text-align: end;
+}
+
+#div2 > li{
+    letter-spacing: 10px;
+
+}
