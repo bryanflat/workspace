@@ -1,0 +1,40 @@
+ul {
+    float: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a {
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #4C6793;
+    padding: 15px 45px;
+    color: #562B08;
+    font-family: sans-serif;
+}
+
+li a:hover {
+    background-color: #8BBCCC;
+}
+
+@media screen and (max-width: 768px)
+{
+    li a {
+        float: none;
+        background-color: #2d6957;
+        padding: 40px 50px;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px)
+{
+    li a {
+        float: none;
+        background-color: #9c7b6d;
+        padding: 8px 16px;
+        display: block;
+    }
+}
