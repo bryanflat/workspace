@@ -1,40 +1,221 @@
-ul {
+ul li a {
     float: left;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
     overflow: hidden;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    color: #400D51;
 }
 
-li a {
-    display: inline-block;
-    border-radius: 20px;
-    background-color: #4C6793;
-    padding: 15px 45px;
-    color: #562B08;
-    font-family: sans-serif;
+.home {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: #DD5353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.about {
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: #DD5353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.news {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: #DD5353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.business {
+    position: absolute;
+    top: 10px;
+    left: 370px;
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: #DD5353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.contactUs {
+    position: absolute;
+    top: 10px;
+    left: 490px;
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    background-color: #DD5353;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 li a:hover {
     background-color: #8BBCCC;
+    color: #DD5353;
 }
 
-@media screen and (max-width: 768px)
-{
-    li a {
-        float: none;
-        background-color: #2d6957;
-        padding: 40px 50px;
-        display: block;
+@media screen and (max-width: 768px){
+    .home {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: 60px;
+        border: 2px solid black;
+        background-color: #DD5353;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .about {
+        position: absolute;
+        top: 90px;
+        left: 10px;
+        width: 100px;
+        height: 60px;
+        border: 2px solid black;
+        background-color: #DD5353;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .news {
+        position: absolute;
+        top: 170px;
+        left: 10px;
+        width: 100px;
+        height: 60px;
+        border: 2px solid black;
+        background-color: #DD5353;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .business {
+        position: absolute;
+        top: 250px;
+        left: 10px;
+        width: 100px;
+        height: 60px;
+        border: 2px solid black;
+        background-color: #DD5353;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+    
+    .contactUs {
+        position: absolute;
+        top: 330px;
+        left: 10px;
+        width: 100px;
+        height: 60px;
+        border: 2px solid black;
+        background-color: #DD5353;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
     }
 }
 
-@media screen and (max-width: 480px)
-{
-    li a {
-        float: none;
-        background-color: #9c7b6d;
-        padding: 8px 16px;
-        display: block;
+@media screen and (max-width: 480px){
+    .home {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 100px;
+        height: 60px;
+        background-color: #8BBCCC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about {
+        position: absolute;
+             top: 90px;
+             left: 10px;
+        width: 100px;
+        height: 60px;
+        background-color: #8BBCCC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .news {
+        position: absolute;
+        top: 170px;
+        left: 10px;
+        width: 100px;
+        height: 60px;
+        background-color: #8BBCCC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .business {
+        position: absolute;
+        top: 250px;
+        left: 10px;
+        width: 100px;
+        height: 60px;
+        background-color: #8BBCCC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .contactUs {
+        position: absolute;
+        top: 330px;
+        left: 10px;
+        width: 100px;
+        height: 60px;
+        background-color: #8BBCCC;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
     }
 }
+
