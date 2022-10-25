@@ -1,0 +1,15 @@
+.form {
+    background-color:#488FB1;
+    border: 1px;
+    padding: 5%;
+    border-radius: 3%;
+}
+
+
+.form-control {
+    background-color:#FEF5AC;
+}
+
+.form-select {
+    background-color: #FEF5AC;
+}

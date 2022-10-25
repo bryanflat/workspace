@@ -1,0 +1,15 @@
+@mixin colors ($colors:#97D2EC)
+{
+    background-color: $colors;
+}
+
+.form {
+    @include colors;
+}
+
+
+@mixin colors {$colors:#FEF5AC}
+
+.form-control .form-select {
+    @include colors;
+}
