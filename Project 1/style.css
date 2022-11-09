@@ -1,0 +1,164 @@
+/* main  section start */
+.main {
+    background: url(./image/mainImage.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.color-overlay {
+    position: absolute;
+    height: 80%;
+    width: 100%;
+    text-shadow: 5px 5px 10px #000000;
+}
+
+.singleCol {
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.darkBG {
+    background-color: #363636;
+    color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+    .main {
+        min-height: 100vh;
+    }
+    h1 {
+        font-size: calc(1.5rem + 3.3vw);
+    }
+}
+
+@media (max-width: 390px) {
+    .main {
+        min-height: 100vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+
+@media (max-width: 414px) {
+    .main {
+        min-height: 100vh;
+    }
+    h1 {
+        font-size: calc(1.525rem + 3.3vw);
+    }
+}
+
+.mainScroll-btn {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 50%;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.mainScroll-btn:hover {
+    color: #FF6D28;
+}
+
+.logoName {
+    color: #FF6D28;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.ai {
+    color: red;
+}
+
+.nav-link:hover {
+    color: #FF6D28;
+}
+
+.btn:hover {
+    color: #FF6D28;
+}
+
+.mLearning {
+    color: #FF6D28;
+}
+.lead {
+    font-size: 30px;
+}
+
+.firstLetter {
+    color:red;
+    font-weight: 600;
+}
+/* main  section start */
+
+/* step section start */
+.steps {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+  
+.steps__section-thumbnail {
+    height: 240px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+  
+.steps__content-width {
+    max-width: 456px;
+    margin: 0 auto;
+}
+  
+.steps--background {
+    background-color: #0f797c;
+}
+  
+  @media (min-width: 544px) {
+    .steps {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+    .steps__section-thumbnail {
+      height: auto;
+      
+    }
+}
+
+.container-custom {
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.readMore {
+    color:red;
+}
+.readMore:hover {
+    color: rgb(0, 0, 0);
+}
+
+.row {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.stepSection {
+    background-color: #0f797c;
+}
+/* step section end */
+  
+  
+/* footer section start */
+.footer .border-highlight {
+    border-top: 1px solid var(--primary-color-highlight);
+} 
+/* footer section end */
